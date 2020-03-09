@@ -15,8 +15,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 from conf.config import APPNIUM_SERVER
-from src.exceptions.miss_param_exception import MissParamException
-from src.exceptions.tap_failed_exception import TapFailedException
+from src.main.exceptions.miss_param_exception import MissParamException
+from src.main.exceptions.tap_failed_exception import TapFailedException
 
 logger = logging.getLogger("AppDevice")
 
